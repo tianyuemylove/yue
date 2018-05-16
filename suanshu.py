@@ -11,9 +11,12 @@ def cheng (a,b):
 def chu (a,b):
     c = a/b
     return c
+a = int(input("请输入数字>>"))
 while True:
-    a = int(input("请输入数字>>"))
     d = input ("请输入 +  -  *  /  ")
+    if d == 'q':
+        print (d)
+        break
     b = int(input("请输入数字>>"))
     if d == '+':
         cc = jia(a,b)
@@ -30,7 +33,7 @@ while True:
     else:
         print("输入错误")
     
-
+           
 
 
 

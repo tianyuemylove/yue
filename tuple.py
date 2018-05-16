@@ -1,0 +1,5 @@
+i =()
+ii = ("I LOVE YOU","tian")
+iii = ("吃货",)
+iiii = ("看星星")
+print (ii,iii,iiii)
