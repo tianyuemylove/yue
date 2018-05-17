@@ -1,0 +1,2 @@
+import qq
+qq.sum()

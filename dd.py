@@ -1,0 +1,2 @@
+import cc
+cc.y()
