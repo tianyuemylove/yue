@@ -17,6 +17,10 @@ def yyy():
     print ("退出")
 cc =int(input("请输入编号>>"))
 ccc()
+vvv()
+xxx()
+yyy()
+
 while True:
     if cc == 1:
         print ("姓名：")
