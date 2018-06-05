@@ -1,0 +1,8 @@
+f = open('0.txt','w')
+c = f.write('I LOVE YOU \n')
+print(c)
+f.close()
+f = open('0.txt','r')
+cc =f.readlines()
+print('读得内容哦你是: '% cc)
+f.close()

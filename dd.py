@@ -1,2 +1,0 @@
-import cc
-cc.y()

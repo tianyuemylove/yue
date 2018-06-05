@@ -1,0 +1,11 @@
+f = open('i.txt','r')
+t = f.readlines()
+print(t)
+f.close()
+x = open('x.txt','ab+')
+
+x.close()
+y = open('x.txt','r')
+cc = y.readlines()
+print(cc+t)
+y.close()
